@@ -35,24 +35,24 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   body {
-    /* height: 100vh; */
+    height: 100vh;
   }
   html {
     height: 100%;
   }
   .header_text {
-    font-size: auto;
+    font-size: 100px;
   }
 
   img {
-    height: 60vh;
+    height: 500px;
   }
   .gif {
     position: absolute;
     height: auto;
     width: 100%;
-    top: 20%;
+    top: 25%;
   }
 }
