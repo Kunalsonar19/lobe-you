@@ -1,0 +1,58 @@
+@import url(styles.css);
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4c4f3;
+  /* background-repeat: no-repeat; */
+  background: -webkit-linear-gradient(140deg, #fc67fa, #f4c4f3) no-repeat;
+  background: linear-gradient(140deg, #fc67fa, #f4c4f3) no-repeat;
+  overflow: hidden;
+}
+
+.header_text {
+  font-family: "Bangers", "Noto Color Emoji", sans-serif;
+  /* font-weight: bold; */
+  font-style: normal;
+  font-size: 100px;
+  letter-spacing: 1px;
+  color: rgba(59, 16, 16, 0.9);
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.gif {
+  height: 450px;
+}
+
+.gif_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    /* height: 100vh; */
+  }
+  html {
+    height: 100%;
+  }
+  .header_text {
+    font-size: auto;
+  }
+
+  img {
+    height: 60vh;
+  }
+  .gif {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 20%;
+  }
+}
